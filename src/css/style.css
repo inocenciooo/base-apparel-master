@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
+:root {
+  --Desaturated-Red: hsl(0, 36%, 70%);
+  --Soft-Red: hsl(0, 93%, 68%);
+  --Dark-Grayish-Red: hsl(0, 6%, 24%);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 button {
+  all: unset;
   cursor: pointer;
 }
 
@@ -23,22 +31,22 @@ body {
   height: 100vh;
   max-width: 50vw;
   margin: 0 auto;
-  padding: 2.5% 8%;
+  padding: 2.6% 8%;
 }
 
-.hero header img{
+.hero header img {
   width: 210px;
 }
 
-.hero header{
-  margin-bottom: 170px;
+.hero header {
+  margin-bottom: 26.4%;
 }
 
 .hero h1 {
   font-size: 90px;
   text-transform: uppercase;
-  letter-spacing: 18px;
-  font-weight: 600;
+  letter-spacing: 20px;
+  font-weight: 400;
 }
 
 .hero h1 span {
@@ -47,7 +55,7 @@ body {
 }
 
 .hero p {
-  margin-top: 35px;
+  margin-top: 4.5%;
   font-size: 24px;
   line-height: 38px;
   color: hsl(0, 36%, 70%);
@@ -55,6 +63,47 @@ body {
 
 
 .hero .email {
+  margin-top: 8%;
+  position: relative;
+}
+
+.hero .email button {
+  padding: 39px 68px;
+  border-radius: 40px;
+  background-color: hsl(0, 36%, 70%);
+  position: absolute;
+  top: -0.01em;
+  right: 9.5%;
+  background-image: url(/src/images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+}
+
+
+
+.hero .email input {
+  padding: 28px 38px;
+  width: 80%;
+  border-radius: 30px;
+  border: 1px solid hsl(0, 36%, 70%);
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: hsl(0, 36%, 70%);
+}
+
+
+
+.hero .email input::placeholder {
+  font-size: 18px;
+  color: hsl(0, 36%, 70%);
+}
+
+
+.hero .email span {
+  display: block;
+  visibility: hidden;
 }
 
 .image {
@@ -75,4 +124,3 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
