@@ -1,0 +1,9 @@
+.email.erro input {
+    border: 2px solid red;
+}
+
+.email.erro span,
+.email.erro .erro-image {
+    visibility: visible;
+}
+

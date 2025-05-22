@@ -1,0 +1,33 @@
+@media(max-width: 1130px){
+    html{
+        font-size: 8px;
+    }
+
+    .hero .email button {
+        padding: 2.2rem 6rem;
+      }
+}
+
+@media(max-width: 910px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 6px;
+    }
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero .email button {
+
+      }
+    .image {
+        background-image: url(../images/hero-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 700px;
+      }
+}
