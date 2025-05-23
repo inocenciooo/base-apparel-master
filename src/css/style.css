@@ -36,7 +36,7 @@ body {
 }
 
 .hero header img {
-  width: 210px;
+  width: 21rem;
 }
 
 .hero header {
@@ -70,24 +70,19 @@ body {
   flex-direction: column;
 }
 
-.erro-image{
-  position: absolute;
-  right: 14em;
-  top: 1.7em;
-  visibility: hidden;
-}
+
 
 .hero .email button {
-  padding: 2.4rem 6rem;
+  padding: 2.6rem 6rem;
   border-radius: 80px;
   position: absolute;
   right: 7em;
   background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-  top: .07em;
+  box-shadow: 0 1em 30px 0px rgba(0, 0, 0, 0.30);
 }
 
 .hero .email button img {
-  height: 25px;
+  height: 2.5rem;
   width: auto;
 }
 
@@ -95,7 +90,7 @@ body {
   padding: 2.8rem 3.8rem;
   width: 80%;
   border-radius: 80px;
-  border: 1px solid hsla(0, 36%, 70%, 50%);
+  border: 2px solid hsla(0, 36%, 70%, 50%);
   outline: none;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
@@ -108,18 +103,16 @@ body {
   color: hsl(0, 36%, 70%);
 }
 
-.hero .email span {
-  display: block;
-  padding-left: 3.5rem;
-  padding-top: 1.2rem;
-  color: #f86565;
-  visibility: hidden;
-}
 
-.image {
+
+.desktop-image {
   overflow: hidden;
   background-image: url(../images/hero-desktop.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.mobile-image{
+  display: none;
 }
