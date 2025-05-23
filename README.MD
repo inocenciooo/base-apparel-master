@@ -35,10 +35,10 @@ Criar uma página com base no layout fornecido pelo Frontend Mentor, incluindo:
 ## 🖼️ Resultado
 
 ### 🖥️ Desktop
-<img src="./src/resultados/Monitor-Full-HD-(padrao)-1920x1080.png"alt="Preview no desktop" />
+<img src="./src/resultados/Monitor-Full-HD-(padrao)-1920x1080.png" alt="Preview no desktop" />
 
 ### 📱 Mobile
-<img src="./src/resultados/Galaxy-A50-372x1091.png"alt="Preview no mobile" />
+<img src="./src/resultados/Galaxy-A50-372x1091.png" alt="Preview no mobile" />
 
 ---
 
