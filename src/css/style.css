@@ -73,7 +73,7 @@ body {
 
 
 .hero .email button {
-  padding: 2.6rem 6rem;
+  padding: 2.3rem 6rem;
   border-radius: 80px;
   position: absolute;
   right: 7em;
@@ -87,7 +87,7 @@ body {
 }
 
 .hero .email input {
-  padding: 2.8rem 3.8rem;
+  padding: 2.5rem 3.8rem;
   width: 80%;
   border-radius: 80px;
   border: 2px solid hsla(0, 36%, 70%, 50%);
@@ -95,6 +95,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   color: var(--Dark-Grayish-Red);
+  opacity: 60%;
 }
 
 .hero .email input::placeholder {
