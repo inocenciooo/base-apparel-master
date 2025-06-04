@@ -44,4 +44,4 @@ Criar uma página com base no layout fornecido pelo Frontend Mentor, incluindo:
 
 ## 🔗 Veja no GitHub Pages
 
-🔗 [Clique aqui para visualizar o projeto](https://seu-usuario.github.io/seu-repositorio)
+🔗 [Clique aqui para visualizar o projeto](https://inocenciooo.github.io/base-apparel-master/)
